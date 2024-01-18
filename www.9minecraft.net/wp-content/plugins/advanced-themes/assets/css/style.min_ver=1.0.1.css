@@ -1,0 +1,68 @@
+.featuredtags {
+    list-style: none;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+}
+
+.featuredtags li {
+    display: flex;
+    margin: 0 10px 10px 0;
+}
+
+.featuredtags a {
+    background: #e0e0e0;
+    border-radius: 3px;
+    color: #303030;
+    display: inline-block;
+    height: 26px;
+    line-height: 26px;
+    padding: 0 10px 0 10px;
+    position: relative;
+    text-decoration: none;
+}
+
+.featuredtags a:hover {
+    background-color: #949494;
+    color: #303030;
+}
+
+.featuredtags img {
+    width: 25px;
+    height: auto;
+    margin-right: 5px;
+    float: left;
+}
+
+ul.ninemine-tags {
+    list-style: none;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.ninemine-ggsearch input.input-ggsearch {
+    background: #FFF;
+    border-color: #630505;
+    margin-right:  5px;
+}
+
+.ninemine-ggsearch input.input-ggsearch:focus {
+    border-color: #630505;
+}
+
+.ninemine-ggsearch .btn-ggsearch {
+    background: #630505;
+    padding:  0 35px;
+}
+
+.ninemine-server-checker-form {
+    display: flex;
+}
+
+.ninemine-server-checker-form button {
+    cursor: pointer;
+    white-space: nowrap;
+}
